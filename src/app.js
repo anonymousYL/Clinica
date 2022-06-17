@@ -12,8 +12,8 @@ import authRoutes from "./routes/auth.routes";
 import { createRoles, createAdmin} from "./libs/initialSetup";
 
 const app = express();
-createRoles();
-createAdmin();
+/* createRoles();
+createAdmin(); */
 
 // Settings
 app.set("pkg", pkg);
