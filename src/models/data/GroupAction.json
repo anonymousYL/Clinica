@@ -1,0 +1,56 @@
+[
+  {
+    "ID_ACCION_GRUPO": "CUEUS",
+    "DE_ACCION_GRUPO": "Cuentas de usuarios",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "CUEME",
+    "DE_ACCION_GRUPO": "Cuentas de Medicos",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "CUEAD",
+    "DE_ACCION_GRUPO": "Cuentas de admisionistas",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "CUEPA",
+    "DE_ACCION_GRUPO": "Cuentas de pasientes",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "HISME",
+    "DE_ACCION_GRUPO": "Historial medico",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "COBRO",
+    "DE_ACCION_GRUPO": "Cobros",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "CITAS",
+    "DE_ACCION_GRUPO": "CITAS",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "PERFI",
+    "DE_ACCION_GRUPO": "Perfiles",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_ACCION_GRUPO": "PERMI",
+    "DE_ACCION_GRUPO": "Permisos",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  }
+]

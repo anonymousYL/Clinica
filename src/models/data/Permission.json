@@ -1,0 +1,410 @@
+[
+  {
+    "ID_PERMISO": "CUEUS-VER",
+    "DE_PERMISO": "Cuentas de usuarios (Ver)",
+    "ID_ACCION_GRUPO": "CUEUS",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEUS-CREAR",
+    "DE_PERMISO": "Cuentas de usuarios (Crear)",
+    "ID_ACCION_GRUPO": "CUEUS",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEUS-MODIF",
+    "DE_PERMISO": "Cuentas de usuarios (Editar)",
+    "ID_ACCION_GRUPO": "CUEUS",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEUS-ELIMI",
+    "DE_PERMISO": "Cuentas de usuarios (Eliminar)",
+    "ID_ACCION_GRUPO": "CUEUS",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEUS-LISTA",
+    "DE_PERMISO": "Cuentas de usuarios (Lista)",
+    "ID_ACCION_GRUPO": "CUEUS",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEUS-CAMCA",
+    "DE_PERMISO": "Cuentas de usuarios (Cambiar contraseña)",
+    "ID_ACCION_GRUPO": "CUEUS",
+    "ID_PERMISO_ACCION": "CAMCA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEME-VER",
+    "DE_PERMISO": "Cuentas de medicos (Ver)",
+    "ID_ACCION_GRUPO": "CUEME",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEME-CREAR",
+    "DE_PERMISO": "Cuentas de medicos (Crear)",
+    "ID_ACCION_GRUPO": "CUEME",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEME-MODIF",
+    "DE_PERMISO": "Cuentas de medicos (Editar)",
+    "ID_ACCION_GRUPO": "CUEME",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEME-ELIMI",
+    "DE_PERMISO": "Cuentas de medicos (Eliminar)",
+    "ID_ACCION_GRUPO": "CUEME",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEME-LISTA",
+    "DE_PERMISO": "Cuentas de medicos (Lista)",
+    "ID_ACCION_GRUPO": "CUEME",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-VER",
+    "DE_PERMISO": "Cuentas de admisionistas (Ver)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-CREAR",
+    "DE_PERMISO": "Cuentas de admisionistas (Crear)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-MODIF",
+    "DE_PERMISO": "Cuentas de admisionistas (Editar)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-ELIMI",
+    "DE_PERMISO": "Cuentas de admisionistas (Eliminar)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-LISTA",
+    "DE_PERMISO": "Cuentas de admisionistas (Lista)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEPA-VER",
+    "DE_PERMISO": "Cuentas de pasientes (Ver)",
+    "ID_ACCION_GRUPO": "CUEPA",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEPA-CREAR",
+    "DE_PERMISO": "Cuentas de pasientes (Crear)",
+    "ID_ACCION_GRUPO": "CUEPA",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEPA-MODIF",
+    "DE_PERMISO": "Cuentas de pasientes (Editar)",
+    "ID_ACCION_GRUPO": "CUEPA",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEPA-ELIMI",
+    "DE_PERMISO": "Cuentas de pasientes (Eliminar)",
+    "ID_ACCION_GRUPO": "CUEPA",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEPA-LISTA",
+    "DE_PERMISO": "Cuentas de pasientes (Lista)",
+    "ID_ACCION_GRUPO": "CUEPA",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "HISME-VER",
+    "DE_PERMISO": "Cuentas de pasientes (Ver)",
+    "ID_ACCION_GRUPO": "HISME",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "HISME-CREAR",
+    "DE_PERMISO": "Cuentas de pasientes (Crear)",
+    "ID_ACCION_GRUPO": "HISME",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "HISME-MODIF",
+    "DE_PERMISO": "Cuentas de pasientes (Editar)",
+    "ID_ACCION_GRUPO": "HISME",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "HISME-ELIMI",
+    "DE_PERMISO": "Cuentas de pasientes (Eliminar)",
+    "ID_ACCION_GRUPO": "COBRO",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "HISME-LISTA",
+    "DE_PERMISO": "Cuentas de pasientes (Lista)",
+    "ID_ACCION_GRUPO": "HISME",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "COBRO-VER",
+    "DE_PERMISO": "Cobros (Ver)",
+    "ID_ACCION_GRUPO": "COBRO",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "COBRO-CREAR",
+    "DE_PERMISO": "Cobros (Crear)",
+    "ID_ACCION_GRUPO": "COBRO",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "COBRO-MODIF",
+    "DE_PERMISO": "Cobros (Editar)",
+    "ID_ACCION_GRUPO": "COBRO",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "COBRO-ELIMI",
+    "DE_PERMISO": "Cobros (Eliminar)",
+    "ID_ACCION_GRUPO": "COBRO",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "COBRO-LISTA",
+    "DE_PERMISO": "Cobros (Lista)",
+    "ID_ACCION_GRUPO": "COBRO",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CITAS-VER",
+    "DE_PERMISO": "CITAS (Ver)",
+    "ID_ACCION_GRUPO": "CITAS",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CITAS-CREAR",
+    "DE_PERMISO": "CITAS (Crear)",
+    "ID_ACCION_GRUPO": "CITAS",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CITAS-MODIF",
+    "DE_PERMISO": "CITAS (Editar)",
+    "ID_ACCION_GRUPO": "CITAS",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CITAS-ELIMI",
+    "DE_PERMISO": "CITAS (Eliminar)",
+    "ID_ACCION_GRUPO": "CITAS",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CITAS-LISTA",
+    "DE_PERMISO": "CITAS (Lista)",
+    "ID_ACCION_GRUPO": "CITAS",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-VER",
+    "DE_PERMISO": "Cuentas de admisionistas (Ver)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-CREAR",
+    "DE_PERMISO": "Cuentas de admisionistas (Crear)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-MODIF",
+    "DE_PERMISO": "Cuentas de admisionistas (Editar)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-ELIMI",
+    "DE_PERMISO": "Cuentas de admisionistas (Eliminar)",
+    "ID_ACCION_GRUPO": "CUCUEADEME",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "CUEAD-LISTA",
+    "DE_PERMISO": "Cuentas de admisionistas (Lista)",
+    "ID_ACCION_GRUPO": "CUEAD",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERFI-LISTA",
+    "DE_PERMISO": "Perfiles (Lista)",
+    "ID_ACCION_GRUPO": "PERFI",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERFI-VER",
+    "DE_PERMISO": "Perfiles (Ver)",
+    "ID_ACCION_GRUPO": "PERFI",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERFI-MODIF",
+    "DE_PERMISO": "Perfiles (Editar)",
+    "ID_ACCION_GRUPO": "PERFI",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERFI-CREAR",
+    "DE_PERMISO": "Perfiles (Crear)",
+    "ID_ACCION_GRUPO": "PERFI",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERFI-ELIMI",
+    "DE_PERMISO": "Perfiles (Eliminar)",
+    "ID_ACCION_GRUPO": "PERFI",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERMI-VER",
+    "DE_PERMISO": "PERMIOS (Ver)",
+    "ID_ACCION_GRUPO": "PERMI",
+    "ID_PERMISO_ACCION": "VER",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERMI-CREAR",
+    "DE_PERMISO": "PERMISOS (Crear)",
+    "ID_ACCION_GRUPO": "PERMI",
+    "ID_PERMISO_ACCION": "CREAR",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERMI-MODIF",
+    "DE_PERMISO": "PERMISOS (Editar)",
+    "ID_ACCION_GRUPO": "PERMI",
+    "ID_PERMISO_ACCION": "MODIF",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERMI-ELIMI",
+    "DE_PERMISO": "PERMISOS (Eliminar)",
+    "ID_ACCION_GRUPO": "PERMI",
+    "ID_PERMISO_ACCION": "ELIMI",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  },
+  {
+    "ID_PERMISO": "PERMI-LISTA",
+    "DE_PERMISO": "PERMISOS (Lista)",
+    "ID_ACCION_GRUPO": "PERMI",
+    "ID_PERMISO_ACCION": "LISTA",
+    "USR_CREACION": "NINGUNO",
+    "F_CREACION": "2022-01-01 00:00:00"
+  }
+]

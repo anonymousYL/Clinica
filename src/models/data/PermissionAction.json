@@ -1,0 +1,44 @@
+[
+    {
+        "ID_PERMISO_ACCION": "VER",
+        "DE_PERMISO_ACCION": "Ver",
+        "USR_CREACION": "NINGUNO",
+        "F_CREACION": "2022-01-01 00:00:00"
+    },
+    {
+        "ID_PERMISO_ACCION": "CREAR",
+        "DE_PERMISO_ACCION": "Crear",
+        "USR_CREACION": "NINGUNO",
+        "F_CREACION": "2022-01-01 00:00:00"
+    },
+    {
+        "ID_PERMISO_ACCION": "MODIF",
+        "DE_PERMISO_ACCION": "Editar",
+        "USR_CREACION": "NINGUNO",
+        "F_CREACION": "2022-01-01 00:00:00"
+    },
+    {
+        "ID_PERMISO_ACCION": "ELIMI",
+        "DE_PERMISO_ACCION": "Eliminar",
+        "USR_CREACION": "NINGUNO",
+        "F_CREACION": "2022-01-01 00:00:00"
+    },
+    {
+        "ID_PERMISO_ACCION": "CAMCA",
+        "DE_PERMISO_ACCION": "Cambiar contraseña",
+        "USR_CREACION": "NINGUNO",
+        "F_CREACION": "2022-01-01 00:00:00"
+    },
+    {
+        "ID_PERMISO_ACCION": "LISTA",
+        "DE_PERMISO_ACCION": "Listar",
+        "USR_CREACION": "NINGUNO",
+        "F_CREACION": "2022-01-01 00:00:00"
+    },
+    {
+        "ID_PERMISO_ACCION": "ASIUS",
+        "DE_PERMISO_ACCION": "Asignar usuario",
+        "USR_CREACION": "NINGUNO",
+        "F_CREACION": "2022-01-01 00:00:00"
+    }
+]

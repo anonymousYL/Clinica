@@ -1,5 +1,11 @@
-import Role from "../models/Role";
-import User from "../models/User";
+import GroupAction from "../models/GroupAction";
+import PermissionAction from "../models/PermissionAction";
+import Permission from "../models/Permission";
+import Profile from "../models/Profile";
+import ProfilePermission from "../models/ProfilePermission";
+import Users from "../models/Users";
+import UsersProfile from "../models/UsersProfile";
+
 
 import bcrypt from "bcryptjs";
 
