@@ -40,13 +40,8 @@ export const verifyToken = async (req, res, next) => {
     return res.status(500).send({ message: error });
   }
 }; */
-<<<<<<< HEAD
-
-/* export const isAdmin = async (req, res, next) => {
-=======
 /* 
 export const isAdmin = async (req, res, next) => {
->>>>>>> prod
   try {
     const user = await User.findById(req.userId);
     const roles = await Role.find({ _id: { $in: user.roles } });
