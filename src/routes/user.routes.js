@@ -6,7 +6,7 @@ import { authJwt, verifySignup } from "../middlewares";
 
 router.get("/", usersCtrl.getUsers);
 
-router.post(
+ router.post(
   "/",
   [
     authJwt.verifyToken,
@@ -14,6 +14,6 @@ router.post(
     verifySignup.checkDuplicateUsernameOrEmail,
   ],
   usersCtrl.createUser
-);
+); 
 
 export default router;

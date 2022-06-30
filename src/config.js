@@ -1,5 +1,5 @@
 import { config } from "dotenv";
-config();
+//config();
 
 export default {
   MONGODB_URI: "mongodb://localhost/clinicaDB",

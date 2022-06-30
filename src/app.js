@@ -9,13 +9,18 @@ import pkg from "../package.json";
 import usersRoutes from "./routes/user.routes";
 import authRoutes from "./routes/auth.routes";
 
-import { createGroupAction, createAdmin} from "./libs/initialSetup";
+import { createGroupAction, createPermissionAction, createPermission, createProfile, createProfilePermission, createUserinitial, createUsersProfile } from "./libs/initialSetup";
 
 const app = express();
 var cookieParser = require('cookie-parser')
 createGroupAction()
-/* createRoles();
-createAdmin(); */
+createPermissionAction()
+createPermission()
+createProfile()
+createProfilePermission()
+createUserinitial()
+createUsersProfile()
+
 
 // Settings
 app.set("pkg", pkg);
@@ -33,7 +38,7 @@ app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser())
+
 
 // Welcome Routes
 app.get("/", (req, res) => {
@@ -47,7 +52,7 @@ app.get("/", (req, res) => {
 });
 
 // Routes
-app.use("/api/products", productRoutes);
+//app.use("/api/products", productRoutes);
 app.use("/api/users", usersRoutes);
 app.use("/api/auth", authRoutes);
 

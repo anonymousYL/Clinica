@@ -67,6 +67,6 @@ export const signin = async (req, res) => {
 
     res.json({ token });
   } catch (error) {
-    console.log(error);
+    res.json({ error})
   }
 };
