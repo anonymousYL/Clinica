@@ -10,7 +10,7 @@ router.post(
   "/",
   [
     authJwt.verifyToken,
-    authJwt.isAdmin,
+    /* authJwt.isAdmin, */
     verifySignup.checkDuplicateUsernameOrEmail,
   ],
   usersCtrl.createUser

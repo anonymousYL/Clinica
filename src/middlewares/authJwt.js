@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import config from "../config";
-import User from "../models/User";
+import User from "../models/Users";
 import Role from "../models/Role";
 
 export const verifyToken = async (req, res, next) => {
@@ -10,7 +10,7 @@ export const verifyToken = async (req, res, next) => {
 
   try {
     const decoded = jwt.verify(token, config.SECRET);
-    req.userId = decoded.id;
+    req.userId = decoded.ID_USUARIO;;
 
     const user = await User.findById(req.userId, { password: 0 });
     if (!user) return res.status(404).json({ message: "No user found" });
@@ -21,7 +21,7 @@ export const verifyToken = async (req, res, next) => {
   }
 };
 
-export const isModerator = async (req, res, next) => {
+/* export const isModerator = async (req, res, next) => {
   try {
     const user = await User.findById(req.userId);
     const roles = await Role.find({ _id: { $in: user.roles } });
@@ -38,8 +38,8 @@ export const isModerator = async (req, res, next) => {
     console.log(error)
     return res.status(500).send({ message: error });
   }
-};
-
+}; */
+/* 
 export const isAdmin = async (req, res, next) => {
   try {
     const user = await User.findById(req.userId);
@@ -58,3 +58,4 @@ export const isAdmin = async (req, res, next) => {
     return res.status(500).send({ message: error });
   }
 };
+ */

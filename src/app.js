@@ -9,9 +9,16 @@ import productRoutes from "./routes/products.routes";
 import usersRoutes from "./routes/user.routes";
 import authRoutes from "./routes/auth.routes";
 
-import { createRoles, createAdmin} from "./libs/initialSetup";
+import { createGroupAction, createPermissionAction, createPermission, createProfile, createProfilePermission, createUserinitial, createUsersProfile } from "./libs/initialSetup";
 
 const app = express();
+createGroupAction()
+createPermissionAction()
+createPermission()
+createProfile()
+createProfilePermission()
+createUserinitial()
+createUsersProfile()
 /* createRoles();
 createAdmin(); */
 
