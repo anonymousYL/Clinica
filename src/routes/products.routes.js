@@ -10,19 +10,19 @@ router.get("/:productId", productsCtrl.getProductById);
 
 router.post(
   "/",
-  [authJwt.verifyToken, authJwt.isModerator],
+  [authJwt.verifyToken/* , authJwt.isModerator */],
   productsCtrl.createProduct
 );
 
 router.put(
   "/:productId",
-  [authJwt.verifyToken, authJwt.isModerator],
+  [authJwt.verifyToken/* , authJwt.isModerator */],
   productsCtrl.updateProductById
 );
 
 router.delete(
   "/:productId",
-  [authJwt.verifyToken, authJwt.isAdmin],
+  [authJwt.verifyToken/* , authJwt.isAdmin */],
   productsCtrl.deleteProductById
 ); 
 

@@ -1,6 +1,6 @@
 import { Schema, model } from "mongoose";
 const { v4: uuidv4 } = require('uuid');
-
+import bcrypt from "bcryptjs";
 
 const userSchema = new Schema(
   {

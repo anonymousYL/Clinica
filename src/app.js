@@ -12,7 +12,6 @@ import authRoutes from "./routes/auth.routes";
 import { createGroupAction, createPermissionAction, createPermission, createProfile, createProfilePermission, createUserinitial, createUsersProfile } from "./libs/initialSetup";
 
 const app = express();
-var cookieParser = require('cookie-parser')
 createGroupAction()
 createPermissionAction()
 createPermission()
@@ -20,7 +19,8 @@ createProfile()
 createProfilePermission()
 createUserinitial()
 createUsersProfile()
-
+/* createRoles();
+createAdmin(); */
 
 // Settings
 app.set("pkg", pkg);

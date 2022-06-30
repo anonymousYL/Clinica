@@ -11,9 +11,14 @@ import ProfilePermissionJS from "../models/data/ProfilePermission.json";
 import Users from "../models/Users";
 import UsersProfile from "../models/UsersProfile";
 import UsersProfileJS from "../models/data/UsersProfile.json";
+<<<<<<< HEAD
+=======
+
+const moment = require("moment");
+>>>>>>> prod
 
 
-import bcrypt from "bcryptjs";
+//import bcrypt from "bcryptjs";
 
 export const createGroupAction = async () => {
   try {
@@ -151,14 +156,14 @@ export const createUserinitial = async () => {
     if (count > 0) return;
     // create a new admin user
 
-    await User.create(
+    await Users.create(
       {
         ID_USUARIO: "d85f9337-809a-4633-b292-c75c5c11ecf4",
         USERNAME: "admin",
-        PASSWORD: await User.encryptPassword("admin123"),
+        PASSWORD: await Users.encryptPassword("admin123"),
         NOM_USUARIO: "Super",
         APE_USUARIO: "Administrador",
-        EMAIL: "",
+        EMAIL: "admin@admin.com",
         TEL_CONTACTO: "",
         SEX_USUARIO: "SEX-M",
         ES_USUARIO: "ACTIV",
@@ -198,13 +203,13 @@ export const createUsersProfile = async () => {
 
 /* export const createAdmin = async () => {
   // check for an existing admin user
-  const user = await User.findOne({ email: "admin@localhost" });
+  const user = await Users.findOne({ email: "admin@localhost" });
   // get roles _id
   const roles = await Role.find({ name: { $in: ["admin", "moderator"] } });
 
   if (!user) {
     // create a new admin user
-    await User.create({
+    await Users.create({
       username: "admin",
       email: "admin@localhost",
       password: await bcrypt.hash("admin", 10),
