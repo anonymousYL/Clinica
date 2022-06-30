@@ -11,11 +11,8 @@ import ProfilePermissionJS from "../models/data/ProfilePermission.json";
 import Users from "../models/Users";
 import UsersProfile from "../models/UsersProfile";
 import UsersProfileJS from "../models/data/UsersProfile.json";
-<<<<<<< HEAD
-=======
 
 const moment = require("moment");
->>>>>>> prod
 
 
 //import bcrypt from "bcryptjs";
