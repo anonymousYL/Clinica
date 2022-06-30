@@ -5,13 +5,15 @@ import helmet from "helmet";
 
 import pkg from "../package.json";
 
-import productRoutes from "./routes/products.routes";
+//import productRoutes from "./routes/products.routes";
 import usersRoutes from "./routes/user.routes";
 import authRoutes from "./routes/auth.routes";
 
-import { createRoles, createAdmin} from "./libs/initialSetup";
+import { createGroupAction, createAdmin} from "./libs/initialSetup";
 
 const app = express();
+var cookieParser = require('cookie-parser')
+createGroupAction()
 /* createRoles();
 createAdmin(); */
 
@@ -19,6 +21,8 @@ createAdmin(); */
 app.set("pkg", pkg);
 app.set("port", process.env.PORT || 4000);
 app.set("json spaces", 4);
+
+
 
 // Middlewares
 const corsOptions = {
@@ -29,6 +33,7 @@ app.use(helmet());
 app.use(morgan("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser())
 
 // Welcome Routes
 app.get("/", (req, res) => {

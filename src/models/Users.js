@@ -1,8 +1,10 @@
 import { Schema, model } from "mongoose";
+const { v4: uuidv4 } = require('uuid');
+
 
 const userSchema = new Schema(
   {
-    ID_USUARIO: { type: String, default: uuid.v1 },
+    ID_USUARIO: { type: String, default: uuidv4 },
     USERNAME: { type: String, unique: true, lowercase: true, required: [true, "can't be blank"], match: [/^[a-zA-Z0-9]+$/, 'is invalid'], index: true },
     PASSWORD: String,
     NOM_USUARIO: String,
