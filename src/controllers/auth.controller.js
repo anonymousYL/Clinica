@@ -43,18 +43,20 @@ export const signUp = async (req, res) => {
 export const signin = async (req, res) => {
   try {
     // Request body email can be an email or username
-    const userFound = await User.findOne({ username: req.body.username })
+    const userFound = await User.findOne({ USERNAME:  req.body.username})
     /* const userFound = await User.findOne({ username: req.body.username }).populate(
       "roles"
     );
  */
-    if (!userFound) return res.status(400).json({ message: "User Not Found" });
+    if (!userFound) return res.status(400).json({ message: "User Not Found>"+userFound });
+
+   
 
     const matchPassword = await User.comparePassword(
       req.body.password,
-      userFound.password
+      userFound.PASSWORD
     );
-
+    
     if (!matchPassword)
       return res.status(401).json({
         token: null,
@@ -65,8 +67,11 @@ export const signin = async (req, res) => {
       expiresIn: 86400, // 24 hours
     });
 
-    res.json({ token });
+
+    return res.json({ token }); 
   } catch (error) {
-    res.json({ error})
+    return res.status(401).json({
+      error: error,
+    });
   }
 };

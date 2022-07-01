@@ -2,7 +2,7 @@
   "name": "clinica-medica",
   "version": "1.0.1",
   "description": "Proyecto de Clinica Medica",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
     "build": "babel src --out-dir build",
@@ -21,7 +21,7 @@
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.5",
     "jest": "^26.4.2",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   },
   "dependencies": {
