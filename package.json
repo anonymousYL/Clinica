@@ -4,7 +4,9 @@
   "description": "Proyecto de Clinica Medica",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js --exec babel-node",
+    "babel:node": "babel-node ----presets=@babel/preset-env",
+    "dev": "nodemon --exec npm run babel:node -- ./src/index.js",
+    "vev1": "nodemon src/index.js --exec babel-node",
     "build": "babel src --out-dir build",
     "start": "node build/index.js",
     "test": "jest"
@@ -21,7 +23,7 @@
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.11.5",
     "jest": "^26.4.2",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.7",
     "supertest": "^4.0.2"
   },
   "dependencies": {
