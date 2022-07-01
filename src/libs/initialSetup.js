@@ -190,7 +190,7 @@ export const createUsersProfile = async () => {
       })
       .catch(err => {
         console.error("error ", err);
-        console.log(res.status(400).json({ err }));
+        //console.log(res.status(400).json({ err }));
       });
 
   } catch (error) {
