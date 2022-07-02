@@ -53,6 +53,58 @@ app.get("/", (req, res) => {
   res.render('index.html');
 });
 
+app.get("/home", (req, res) => {
+  res.render('home.html');
+});
+
+app.get("/citaslist", (req, res) => {
+  res.render('citas-list.html');
+});
+
+app.get("/citasnew", (req, res) => {
+  res.render('citas-new.html');
+});
+
+app.get("/citassearch", (req, res) => {
+  res.render('citas-search.html');
+});
+
+app.get("/citasupdate", (req, res) => {
+  res.render('citas-update.html');
+});
+
+app.get("/pacientelist", (req, res) => {
+  res.render('paciente-list.html');
+});
+
+app.get("/pacientenew", (req, res) => {
+  res.render('paciente-new.html');
+});
+
+app.get("/pacientesearch", (req, res) => {
+  res.render('paciente-search.html');
+});
+
+app.get("/pacienteupdate", (req, res) => {
+  res.render('paciente-update.html');
+});
+
+app.get("/userlist", (req, res) => {
+  res.render('user-list.html');
+});
+
+app.get("/usernew", (req, res) => {
+  res.render('user-new.html');
+});
+
+app.get("/usersearch", (req, res) => {
+  res.render('user-search.html');
+});
+
+app.get("/userupdate", (req, res) => {
+  res.render('user-update.html');
+});
+
 // Routes
 //app.use("/api/products", productRoutes);
 app.use("/api/users", usersRoutes);
