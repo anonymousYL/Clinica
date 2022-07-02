@@ -53,6 +53,10 @@ app.get("/", (req, res) => {
   res.render('index.html');
 });
 
+app.get("/home", (req, res) => {
+  res.render('home.html');
+});
+
 // Routes
 //app.use("/api/products", productRoutes);
 app.use("/api/users", usersRoutes);
